@@ -18,3 +18,46 @@
 ###### 6. 정확율 시각화, 7. 정확율 수치화
 </pre>
    
+### 2. 프로젝트 : 다중선형회귀  (가상화폐 가격예측 실전 분석)
+####    데이터 - 현재시간의 가상화폐 데이터 200여개 추출 및 시계열 데이터 변환  
+####    데이터 정의
+<pre>
+######    time_step(간격)별 최고가  
+######    time_step(간격)별 최저가 
+######    time_step(간격)별 현재가
+</pre>
+####   개발 킷
+<pre>
+######   개발언어 : Python v3.9
+######   개발도구 : Jupyter notebook , Pycharm , GUI
+######   주요 라이브러리 : Tensorflow v2.20.0 , Scikit-learn v1.6.1 ,Numpy v 1.26.4 , Matplotlib v3.9.4
+</pre>
+#### Package Struct
+<pre>
+#####             프로젝트명 : Crypto_Coin_Service_03
+#########         루트디렉토리 : Ai-service , Static , Templates
+#########         루트파일명 : Web_Service,AI.py (웹 라우팅)
+
+#########         디렉토리 구조
+###########         Ai_service
+########### 	          - Coin_config
+###########              저장된 모델과 에러율 및 스케일러
+###########              - Crypto_Coin_Predict.py (모델 예측관련 서비스)
+########### 	          - Crypto_Coin_Service.py (미들웨어 서버와 연동되는 서비스)
+########### 	          - Crypto_Coin_Train.py (데이터 전처리와 모델 생성 및 훈련 저장)
+###########          Static
+###########                 - Chart (훈련결과 그래프 저장)
+###########                 - Css (Client service 화면 서식)
+###########                 - Js (Client service 화면 컨트롤러)
+########### 	             - Img (Client service 요구 이미지)
+###########          Templates
+########### 	        - Html (Client service 화면 구조) 
+
+
+</pre>
+#### 작업프로세스
+<pre>
+###### 1. 데이터 수집, 2. 데이터 분석, 3. 데이터 전처리, 4. 순차모델구성, 5. 훈련결과시각화,   
+###### 6. 정확율 시각화, 7. 정확율 수치화 , 8. 예측함수 작성 , 9.웹서비스 연동 모듈 , 10. 웹서버 , 11. 클라이언트 구현
+</pre>
+   
